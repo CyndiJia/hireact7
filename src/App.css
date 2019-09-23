@@ -32,17 +32,83 @@
   }
 }
 
-h1{
-  color: grey;
-  margin: 150px;
+.layers{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #585656;
+  font-size: 16px;
+  font-family: 'Manjari', sans-serif;
+}
+
+#right{
+
+  margin-top: 2.3%;
+  cursor: pointer;
+}
+
+#left{
+  margin-top: 2.3%;
+  margin-left: 44.3%;
+  cursor: pointer;
+}
+
+#left:hover{
+  transition: all 0.5s ease-out;
+  width: 70px;
 }
 
 #right:hover{
   transition: all 0.5s ease-out;
-  width: 90px;
+  width: 70px;
 }
 
-#right{
-  margin-left: 46%;
-  margin-top: 1.5%;
+.titles{
+  margin-top: 2.5%;
+  text-align: center;
+  color: #585656;
+}
+
+body{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 19px;
+}
+
+.link{
+  font-size: 13px;
+  text-align: center;
+  color: grey;
+  margin-top: 3.5%;
+}
+
+#interface{
+  width: 45%;
+  margin-left: 25%;
+}
+
+#city{
+  width: 95%;
+  margin-left: 4%;
+}
+
+#cover{
+  width: 47%;
+  margin-left: 25.5%;
+  border: 3px solid grey;
+}
+
+.intro{
+  margin-left: 26%;
+  width: 600px;
+  color: grey;
+  font-family: 'Manjari', sans-serif;
+}
+
+#inter{
+  margin-left: 21%;
+}
+
+#ci{
+  margin-left: 4%;
 }
